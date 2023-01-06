@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardCornerRadius="5dp"
+            card_view:cardBackgroundColor="@color/abumuda">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/photo_user"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/promo_img"/>
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameProduk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CARRY OUTER BROWN"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pcs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="pieces"
+                        android:textSize="12sp"
+                        android:textColor="@color/black"
+                        android:layout_marginBottom="3dp"/>
+
+                    <TextView
+                        android:id="@+id/harga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 249.000"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/birutua"/>
+
+                    <TextView
+                        android:id="@+id/diskon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rp 299.000"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/abutadikit"/>
+
+                    <Button
+                        android:id="@+id/btnAktifkan"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:background="@drawable/bg_rounded_btn_promo"
+                        android:text="Aktifkan"
+                        android:textSize="10dp"
+                        android:drawableLeft="@drawable/img_checklist"
+                        android:textColor="@color/hijau"
+                        android:layout_marginTop="10dp"/>
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+<!--kalo mau menggunakan card ubah linear awal ke vertical kemudian uabh linear bawah-->
+
+</LinearLayout>

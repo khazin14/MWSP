@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SettingsFragment">
+
+    <TextView
+        android:layout_marginTop="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Pengaturan"
+        android:layout_gravity="center" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/setting_img"/>
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text=""/>
+    <TextView
+        android:id="@+id/textNoHp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text=""
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnProfil"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ubah Profil"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/img_arrow"
+        android:background="@drawable/bg_rounded_btn_setting" />
+
+    <Button
+        android:id="@+id/btnRiwayat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Riwayat Activate"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/img_arrow"
+        android:background="@drawable/bg_rounded_btn_setting" />
+
+    <Button
+        android:id="@+id/btnTentang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tentang Kami"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/img_arrow"
+        android:background="@drawable/bg_rounded_btn_setting" />
+
+    <Button
+        android:id="@+id/btnDetailR"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Detail Riwayat"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/img_arrow"
+        android:background="@drawable/bg_rounded_btn_setting" />
+
+    <Button
+        android:id="@+id/btnKeluar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Keluar"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/red_warning"
+        android:layout_marginBottom="15dp"
+        android:drawableEnd="@drawable/img_arrow"
+        android:background="@drawable/bg_rounded_btn_setting" />
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/memberImg"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/member_img"/>
+
+        <TextView
+            android:id="@+id/nama_pdk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CARRY OUTER BROWN"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/hargaBaju1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 249.000"
+            android:textColor="@color/birutua"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/hargaItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 299.000"
+            android:textColor="@color/abutadikit"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+        <TextView
+            android:id="@+id/harga_total1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: Rp 249.000"
+            android:textColor="@color/hijau"
+            android:textStyle="bold"
+            android:textSize="12dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/minusMember"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_rounded_btn_member"
+                android:text="-"
+                android:textSize="20dp"
+                android:textColor="@color/hijau" />
+
+            <TextView
+                android:id="@+id/totalMember"
+                android:background="@color/hijau"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:text="1"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/plusMember"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_rounded_btn_member"
+                android:text="+"
+                android:textSize="20dp"
+                android:textColor="@color/hijau" />
+
+            <ImageView
+                android:id="@+id/hapusmember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="11dp"
+                android:src="@drawable/img_trash"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:paddingStart="8dp">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="180dp"-->
+<!--                android:layout_height="180dp"-->
+<!--                android:src="@drawable/member_img" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/nama_pdk2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="CARRY OUTER BROWN"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="12dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:textColor="@color/black" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/hargaBaju2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Rp 249.000"-->
+<!--                android:textColor="@color/birutua"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="12dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Rp 299.000"-->
+<!--                android:textColor="@color/abutadikit"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/harga_total2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Total: Rp 498.000"-->
+<!--                android:textColor="@color/hijau"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="12dp"/>-->
+
+
+<!--        </LinearLayout>-->
+            
+
+</LinearLayout>
