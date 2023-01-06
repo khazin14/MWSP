@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/photoProfilehome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/moveHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:text="Grocery"
+                android:textColor="@color/hijau"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/fetch_recycler_home"/>
+    
+<!--    <ImageView-->
+<!--        android:id="@+id/btnMovebanner"-->
+<!--        android:layout_width="378dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginTop="27dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:src="@drawable/menantea"-->
+<!--        android:layout_gravity="center"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="378dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:src="@drawable/img_1"-->
+<!--        android:layout_gravity="center"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="378dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:src="@drawable/img_2"-->
+<!--        android:layout_gravity="center"/>-->
+<!--    <ImageView-->
+<!--        android:layout_width="378dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:src="@drawable/img_3"-->
+<!--        android:layout_gravity="center"/>-->
+</LinearLayout>
