@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+
+        <ImageView
+            android:id="@+id/imgBanner"
+            android:layout_width="378dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/menantea" />
+        
+        <Button
+            android:id="@+id/hapusHome"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="@drawable/bg_rounded_btn_promo"
+            android:text="Hapus"
+            android:textSize="10dp"
+            android:textColor="@color/hijau"
+            android:layout_gravity="end"/>
+
+
+
+
+    <!--kalo mau menggunakan card ubah linear awal ke vertical kemudian uabh linear bawah-->
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:text="Grocery"
+                android:textColor="@color/hijau"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="@color/black"
+        android:paddingTop="40dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Login"
+        android:textSize="25sp"/>
+    <TextView
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:layout_gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Selamat datang kembali,silahkan login"
+        android:layout_marginBottom="36dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textStyle="bold"
+            android:textColor="@color/red_warning"
+            android:paddingBottom="15dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/inEmail"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="masukkan alamat email"
+        android:paddingStart="10dp"
+        android:background="@drawable/bg_rounded_ed"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="15dp"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textStyle="bold"
+            android:textColor="@color/red_warning"
+            android:paddingBottom="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/inPassword"
+        android:paddingStart="10dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableEnd="@drawable/btn_mata"
+        android:paddingRight="10dp"
+        android:hint="masukkan password"
+        android:background="@drawable/bg_rounded_ed"/>
+
+    <Button
+        android:id="@+id/btnMove"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/bg_rounded_btn"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum punya akun? "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/daftarLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:textColor="@color/hijau"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
